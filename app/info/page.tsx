@@ -225,7 +225,6 @@ export default function SpotifyAuthForm() {
                 <label className="flex items-center gap-2 mb-1">
                   <Checkbox
                     checked={allSelected}
-                    indeterminate={scopes.length > 0 && !allSelected}
                     onCheckedChange={handleSelectAll}
                   />
                   <span className="font-medium">Select All</span>

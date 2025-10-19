@@ -30,6 +30,7 @@ export const DialogContent = React.forwardRef<
     </DialogPrimitive.Content>
   </DialogPrimitive.Portal>
 ));
+DialogContent.displayName = "DialogContent";
 export const DialogTitle = DialogPrimitive.Title;
 export const DialogDescription = DialogPrimitive.Description;
 export const DialogClose = DialogPrimitive.Close;
