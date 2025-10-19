@@ -1,6 +1,6 @@
 # toshiki-spotify-refresh-token-generator
 
-A modern, open-source web app to generate Spotify refresh tokens using your own Spotify Developer credentials. Built with Next.js, shadcn/ui, Tailwind CSS, and Sonner for a beautiful, responsive, and dark-mode-friendly experience. Original [project](https://github.com/andatoshiki/toshiki-spotify-refresh-token-generator) created by @Henry Lim.
+A modern, open-source web app to generate Spotify refresh tokens using your own Spotify Developer credentials. Built with Next.js, shadcn/ui, Tailwind CSS, and Sonner for a beautiful, responsive, and dark-mode-friendly experience. Original [project](https://github.com/andatoshiki/toshiki-spotify-refresh-token-generator) created by @Henry Lim, this is a deriavtive work with a better frontend built upon ShadCN UI to match my personal visual preference.
 
 ## Features
 - Multi-step, user-friendly flow
