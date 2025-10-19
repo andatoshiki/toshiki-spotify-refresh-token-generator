@@ -1,5 +1,8 @@
 export const metadata = {
   title: "Welcome · Spotify Refresh Token Generator",
+  alternates: {
+    canonical: "https://spotify.tosh1ki.de/welcome"
+  }
 };
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 import Link from "next/link";

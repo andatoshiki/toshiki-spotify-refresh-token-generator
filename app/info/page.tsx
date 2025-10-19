@@ -41,6 +41,12 @@ const scopesOptions = [
   "app-remote-control",
 ];
 
+export const metadata = {
+  alternates: {
+    canonical: "https://spotify.tosh1ki.de/info"
+  }
+};
+
 export default function SpotifyAuthForm() {
   const [clientId, setClientId] = useState("");
   const [clientSecret, setClientSecret] = useState("");
