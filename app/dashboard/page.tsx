@@ -6,12 +6,6 @@ import { useRouter } from "next/navigation";
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 import Link from "next/link";
 
-export const metadata = {
-  alternates: {
-    canonical: "https://spotify.tosh1ki.de/dashboard"
-  }
-};
-
 export default function DashboardPage() {
   const router = useRouter();
 
