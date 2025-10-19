@@ -41,12 +41,6 @@ const scopesOptions = [
   "app-remote-control",
 ];
 
-export const metadata = {
-  alternates: {
-    canonical: "https://spotify.tosh1ki.de/info"
-  }
-};
-
 export default function SpotifyAuthForm() {
   const [clientId, setClientId] = useState("");
   const [clientSecret, setClientSecret] = useState("");
@@ -113,7 +107,6 @@ export default function SpotifyAuthForm() {
     );
   };
 
-  // Select All logic
   const allSelected = scopes.length === scopesOptions.length;
   const handleSelectAll = (checked: boolean) => {
     setScopes(checked ? [...scopesOptions] : []);
@@ -167,7 +160,7 @@ export default function SpotifyAuthForm() {
         </DialogContent>
       </Dialog>
 
-  <div className="w-full h-full flex-1 flex items-center justify-center py-12 px-4 sm:px-0">
+      <div className="w-full h-full flex-1 flex items-center justify-center py-12 px-4 sm:px-0">
         <Card className="max-w-xl w-full">
           <CardHeader>
             <CardTitle className="text-2xl">
