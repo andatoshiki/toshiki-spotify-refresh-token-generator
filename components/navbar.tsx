@@ -12,7 +12,7 @@ export function Navbar() {
         </Link>
         <div className="flex items-center gap-2">
           <a
-            href=""
+            href="https://github.com/andatoshiki/toshiki-spotify-refresh-token-generator"
             target="_blank"
             rel="noopener noreferrer"
             aria-label="GitHub Repository"
